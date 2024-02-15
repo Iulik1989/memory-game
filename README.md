@@ -6,8 +6,10 @@ Start project
 yarn vite
 ```
 Implementation:
-- Architecture is based on atomic design.
+- React.
 - useContext as state manager because state is pretty small.
+- css for styling.
+- fetch for API request.
 
 Limitations:
 - Can't save move score.
