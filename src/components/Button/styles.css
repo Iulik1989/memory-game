@@ -1,0 +1,12 @@
+.styledButton {
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 24px;
+    font-family: "Roboto Light", sans-serif;
+}
+

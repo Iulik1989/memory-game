@@ -1,0 +1,30 @@
+body {
+    background: #d0e0e6;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+
+
+
+
