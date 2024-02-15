@@ -43,10 +43,12 @@ function App() {
 
   return (
     <div className="app">
+
       <div className="actions">
         <h1>Moves to solve: {moveCount}</h1>
         <Button onClick={handleRefresh}>Refresh</Button>
       </div>
+
       <div className="cards">
         {doubleItems.map((item, index) => {
           const flipCard = openedCard.includes(index) || selected.includes(index);
