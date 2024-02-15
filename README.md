@@ -19,6 +19,7 @@ Limitations:
 - It's not supporting mobile screens.
 
 Next step:
+- Create component for each element and implement atomic design.
 - Implement responsive design.
 - Use localstorage/API to save progress and to be able to implement some kind of top score and provide possibility for multiplayer.
 - Change API to have possibility to use query for changing result quantity(current one return 10 result no matter what).
